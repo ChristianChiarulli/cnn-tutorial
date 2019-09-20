@@ -1,0 +1,19 @@
+name: cnn
+channels:
+  - conda-forge
+
+dependencies:
+  - python==3.7.4
+  - pip
+  - matplotlib
+  - cudatoolkit=10.0.130
+  - cudnn
+  - pandas
+  - pip:
+    - jupyterlab
+    - tensorflow-gpu==2.0.0b1
+    - opencv-python==4.1.1.26
+    - opencv-contrib-python==4.1.1.26
+    - numpy==1.16.0
+    - scikit-learn
+
