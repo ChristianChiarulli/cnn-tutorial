@@ -1,0 +1,19 @@
+name: cnn-gpu
+channels:
+  - conda-forge
+
+dependencies:
+  - python==3.7.4
+  - pip
+  - matplotlib
+  - cudatoolkit=10.1
+  - cudnn
+  - pandas
+  - pip:
+      - jupyterlab
+      - tensorflow-gpu==2.2.0
+      - opencv-python==4.1.1.26
+      - opencv-contrib-python==4.1.1.26
+      - scikit-learn
+      - seaborn
+      - Pillow

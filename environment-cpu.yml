@@ -1,0 +1,18 @@
+name: cnn-cpu
+channels:
+  - conda-forge
+
+dependencies:
+  - python==3.8.3
+  - pip
+  - matplotlib
+  - pandas
+  - pip:
+      - jupyterlab
+      - tensorflow==2.2.0
+      - opencv-python
+      - opencv-contrib-python
+      - scikit-learn
+      - seaborn
+      - Pillow
+
